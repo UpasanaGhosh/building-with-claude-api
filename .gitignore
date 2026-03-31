@@ -3,3 +3,4 @@ __pycache__
 .venv
 .buildingWithClaudeAPI
 .DS_Store
+.vscode/
