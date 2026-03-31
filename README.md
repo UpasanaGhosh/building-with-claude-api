@@ -128,6 +128,9 @@ As a software engineer transitioning deeper into AI/ML systems, I wanted to:
 
 If you're working on similar problems or exploring LLM systems, I'd love to connect and exchange ideas.
 
+## 📄 License
+This project is licensed under the MIT License.
+
 ## 🙏 Acknowledgements
 
 This repository is based on a Claude API course by Anthropic.
