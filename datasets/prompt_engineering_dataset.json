@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - high-intensity endurance athlete requiring 3000+ calories with carbohydrate loading and hydration strategy",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories across all meals and snacks",
+      "Carbohydrates comprise 55-65% of total daily calories with emphasis on complex carbs",
+      "Includes specific hydration strategy with fluid and electrolyte intake recommendations",
+      "Plan is compact and concise (fits within 1 day format without excessive detail)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration strategy"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle and strength with high protein intake (150+ grams daily) and optimized meal timing around weightlifting training",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains minimum 150g protein distributed across all meals",
+      "Includes specific meal timing around training window (pre/post-workout nutrition)",
+      "Provides 1 full day of meals in compact, easy-to-follow format",
+      "Meals are realistic and practical for a single athlete to prepare"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) needing high protein intake (150+ grams) with specific meal timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "162 cm",
+      "weight": "52 kg",
+      "goal": "Maintain lean physique and performance for competitive gymnastics while supporting muscle recovery",
+      "restrictions": "Vegetarian, no nuts due to allergy"
+    },
+    "solution_criteria": [
+      "Total daily calories fall within 1800-2000 range",
+      "Meal plan includes 3 meals that are nutrient-dense and support athletic performance and recovery",
+      "All meals comply with vegetarian and nut-free restrictions",
+      "Plan is presented as a single, compact day format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-conscious athlete (gymnast or dancer) requiring nutrient-dense, lower-calorie meals (1800-2000 calories) while maintaining performance and recovery"
+  }
+]

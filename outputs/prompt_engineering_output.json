@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\nHere is a one-day meal plan for an endurance athlete in marathon training:\n\n* **Calorie Target:** Approximately 3200 calories\n* **Macronutrient Breakdown:** Protein (140g), Fat (80g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (150g), honey (20g), and whole milk (250ml). Whole wheat toast (60g) with almond butter (15g).\n    * Protein: 18g, Fat: 12g, Carbs: 95g\n\n* **Pre-Workout Snack (9:30 AM):** Energy bar (65g) and sports drink (500ml).\n    * Protein: 10g, Fat: 8g, Carbs: 75g\n\n* **Lunch (1:00 PM):** Grilled lean beef (150g) with brown rice (120g dry weight) and roasted sweet potato (200g). Mixed green salad (100g) with olive oil dressing (15ml).\n    * Protein: 45g, Fat: 15g, Carbs: 85g\n\n* **Afternoon Snack (3:30 PM):** Greek yogurt (200g) with granola (40g) and berries (80g).\n    * Protein: 20g, Fat: 8g, Carbs: 50g\n\n* **Pre-Dinner Snack (5:30 PM):** Rice cakes (50g) with honey (15g) and dates (60g).\n    * Protein: 4g, Fat: 1g, Carbs: 65g\n\n* **Dinner (7:00 PM):** Grilled chicken breast (160g) with pasta (100g dry weight) and marinara sauce (200g). Steamed broccoli (150g) with olive oil (10ml).\n    * Protein: 42g, Fat: 20g, Carbs: 80g\n\n* **Evening Hydration & Snack (9:00 PM):** Chocolate milk (250ml) and almonds (25g).\n    * Protein: 9g, Fat: 16g, Carbs: 30g\n\n**Hydration Strategy:** Drink 500ml water with each meal, 250ml every 2 hours between meals, and electrolyte sports drink (500ml) during/after training sessions. Target minimum 3-4 liters daily.\n\nThis meal plan emphasizes high-quality carbohydrates for glycogen loading, adequate protein for muscle recovery, and strategic meal timing to fuel marathon training demands.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training - high-intensity endurance athlete requiring 3000+ calories with carbohydrate loading and hydration strategy",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3000+ calories across all meals and snacks",
+        "Carbohydrates comprise 55-65% of total daily calories with emphasis on complex carbs",
+        "Includes specific hydration strategy with fluid and electrolyte intake recommendations",
+        "Plan is compact and concise (fits within 1 day format without excessive detail)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration strategy"
+    },
+    "score": 7,
+    "reasoning": "The solution meets all three mandatory requirements with specific daily totals, macronutrient breakdowns, and detailed meals with portions and timing. The hydration strategy is thorough and well-structured. However, the carbohydrate percentage at 52.5% falls marginally below the 55-65% target range specified in the secondary criteria, representing a measurable shortfall. The plan is appropriately compact and concise. While the solution is strong overall, the carbohydrate percentage deficiency prevents a higher score."
+  },
+  {
+    "output": "# One-Day Muscle-Building Meal Plan for 85kg Athlete\n\nHere is a one-day meal plan for an athlete aiming to build muscle and strength with optimized protein intake and training timing:\n\n* **Calorie Target:** Approximately 3100 calories\n* **Macronutrient Breakdown:** Protein (155g), Fat (95g), Carbs (380g)\n\n**Meal Plan:**\n\n* **Breakfast (7:00 AM):** Whole grain toast (80g) with 3 eggs (150g) scrambled in butter (10g). Orange juice (250ml) and a banana (120g).\n    * Protein: 20g, Fat: 12g, Carbs: 55g\n\n* **Mid-Morning Snack (10:00 AM):** Greek yogurt (200g, plain full-fat) with granola (40g) and honey (15g).\n    * Protein: 18g, Fat: 8g, Carbs: 42g\n\n* **Pre-Workout Snack (12:30 PM - 30 mins before training):** White rice (80g cooked) with chicken breast (100g) and sweet potato (100g).\n    * Protein: 28g, Fat: 2g, Carbs: 50g\n\n* **Post-Workout Shake (2:30 PM - within 30 mins after training):** Whey protein powder (35g), whole milk (300ml), and dextrose powder (25g).\n    * Protein: 33g, Fat: 9g, Carbs: 35g\n\n* **Lunch (4:00 PM):** Lean ground beef (180g) with brown rice (100g cooked) and mixed vegetables - broccoli (100g) and carrots (80g) saut\u00e9ed in olive oil (10g).\n    * Protein: 35g, Fat: 18g, Carbs: 45g\n\n* **Dinner (7:00 PM):** Salmon fillet (160g baked) with sweet potato (150g) and asparagus (150g) drizzled with olive oil (8g).\n    * Protein: 30g, Fat: 15g, Carbs: 35g\n\n* **Evening Snack (9:30 PM):** Cottage cheese (200g, low-fat) with almonds (25g).\n    * Protein: 28g, Fat: 13g, Carbs: 8g\n\nThis meal plan prioritizes high-quality protein sources distributed throughout the day, strategically times carbohydrates around training for optimal energy and recovery, and includes nutrient-dense whole foods to support muscle growth and strength development.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Build muscle and strength with high protein intake (150+ grams daily) and optimized meal timing around weightlifting training",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan contains minimum 150g protein distributed across all meals",
+        "Includes specific meal timing around training window (pre/post-workout nutrition)",
+        "Provides 1 full day of meals in compact, easy-to-follow format",
+        "Meals are realistic and practical for a single athlete to prepare"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength-focused athlete (weightlifter) needing high protein intake (150+ grams) with specific meal timing around training windows"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all mandatory requirements: it provides a daily caloric total (3100), complete macronutrient breakdown (155g protein, 95g fat, 380g carbs), meals with exact foods and portions, and includes specific pre/post-workout timing. The protein distribution across 7 meals exceeds the 150g minimum requirement. The meal plan is compact, well-formatted, and realistic for a single athlete. However, there are minor deficiencies in secondary criteria: the pre-workout meal timing and composition could be optimized further, and the caloric prescription lacks justification. These are not mandatory requirement violations, but represent areas where the solution could be more refined. The solution meets all stated criteria without significant deficiencies."
+  },
+  {
+    "output": "# One-Day Meal Plan for Competitive Gymnast\n\nHere is a one-day meal plan for an athlete aiming to maintain lean physique and support muscle recovery for competitive gymnastics:\n\n* **Calorie Target:** Approximately 2,100 calories\n* **Macronutrient Breakdown:** Protein (105g), Fat (58g), Carbs (285g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (70g dry weight) with blueberries (100g), ground flaxseed (15g), and low-fat milk (240ml).\n  * Protein: 12g, Fat: 8g, Carbs: 55g\n\n* **Mid-Morning Snack (10:00 AM):** Greek yogurt (150g, non-fat) with honey (15g) and granola (30g).\n  * Protein: 18g, Fat: 3g, Carbs: 35g\n\n* **Lunch (1:00 PM):** Chickpea salad with mixed greens (150g), chickpeas (120g cooked), cucumber (60g), cherry tomatoes (80g), and lemon vinaigrette (20ml). Whole wheat pita bread (60g).\n  * Protein: 12g, Fat: 6g, Carbs: 65g\n\n* **Afternoon Snack (4:00 PM):** Banana (120g) with sunflower seed butter (20g) and whole grain crackers (25g).\n  * Protein: 8g, Fat: 10g, Carbs: 40g\n\n* **Dinner (6:30 PM):** Baked tofu (150g) with steamed broccoli (200g), sweet potato (150g), and olive oil drizzle (10ml).\n  * Protein: 28g, Fat: 12g, Carbs: 50g\n\n* **Evening Snack (8:30 PM):** Low-fat cottage cheese (100g) with peach slices (80g).\n  * Protein: 15g, Fat: 2g, Carbs: 15g\n\nThis meal plan prioritizes vegetarian protein sources (legumes, tofu, dairy), complex carbohydrates for sustained energy during training, and healthy fats for hormone production\u2014all while being nut-free and supporting optimal recovery for gymnastics performance.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "162 cm",
+        "weight": "52 kg",
+        "goal": "Maintain lean physique and performance for competitive gymnastics while supporting muscle recovery",
+        "restrictions": "Vegetarian, no nuts due to allergy"
+      },
+      "solution_criteria": [
+        "Total daily calories fall within 1800-2000 range",
+        "Meal plan includes 3 meals that are nutrient-dense and support athletic performance and recovery",
+        "All meals comply with vegetarian and nut-free restrictions",
+        "Plan is presented as a single, compact day format"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a weight-conscious athlete (gymnast or dancer) requiring nutrient-dense, lower-calorie meals (1800-2000 calories) while maintaining performance and recovery"
+    },
+    "score": 6,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear presentation of daily calories, macronutrient breakdown, and detailed meals with portions and timing. All dietary restrictions are properly observed. However, the solution violates the secondary criterion requiring total daily calories to fall within 1800-2000 range\u2014the plan provides 2,100 calories, which is 100 calories above the specified maximum. While this is a relatively minor overage, it is an explicit violation of stated criteria. The meal plan is otherwise well-designed for athletic performance and recovery, with appropriate nutrient timing and food choices suitable for a competitive gymnast."
+  }
+]
