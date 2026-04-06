@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - 3000+ calories with carbohydrate loading for sustained endurance energy",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Plan contains exactly 6 meals distributed throughout the day",
+      "Total daily calories meet or exceed 3000 with emphasis on carbohydrates (55-65% of total)",
+      "Meals are compact and concise (brief descriptions, not lengthy recipes)",
+      "Includes appropriate timing and food choices for sustained energy in endurance training"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and sustained energy distribution across 6 small meals"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "82 kg",
+      "goal": "Build muscle and strength while maintaining body composition for weightlifting competition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers full day (breakfast, lunch, dinner, snacks) with protein-focused meals around training windows",
+      "Macronutrient distribution supports strength/power athlete needs with elevated protein intake",
+      "Includes pre-training, intra-training (if applicable), and post-training nutrition strategy",
+      "Plan is compact and concise (suitable for quick daily reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing balanced macros with protein-focused meals around training windows and recovery nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "198 cm",
+      "weight": "95 kg",
+      "goal": "High-energy performance meal plan for basketball game day",
+      "restrictions": "Vegan (no animal products)"
+    },
+    "solution_criteria": [
+      "Meal plan covers 1 full day with breakfast, lunch, pre-game meal, and post-game meal",
+      "All meals are 100% plant-based with complete protein sources (legumes, tofu, nuts, seeds, grains)",
+      "Estimated daily calories meet high-performance athlete needs (~3,000-3,500 kcal for 95kg athlete)",
+      "Includes timing and portion guidance suitable for basketball training and game performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary constraint (vegan basketball player) requiring complete plant-based protein sources while meeting high energy demands for court performance"
+  }
+]
