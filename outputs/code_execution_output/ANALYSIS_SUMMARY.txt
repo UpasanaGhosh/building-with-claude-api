@@ -1,0 +1,127 @@
+                    CHURN ANALYSIS - DELIVERABLES SUMMARY
+================================================================================
+
+This analysis identified the major drivers of customer churn for a streaming 
+service with 500 customers (38.6% churn rate).
+
+OUTPUTS GENERATED:
+==================
+
+1. churn_drivers_comprehensive_analysis.png
+   - Main deliverable: Comprehensive multi-panel visualization showing all
+     major churn drivers with detailed metrics and actionable insights
+   - Includes: Feature importance, engagement metrics, subscription tiers,
+     genre analysis, and distribution comparisons
+
+2. churn_analysis_dashboard.png
+   - Alternative dashboard view with 7+ visualizations
+   - Additional correlation heatmap perspective
+
+3. correlation_heatmap.png
+   - Detailed correlation matrix showing relationships between all variables
+   - Highlights correlations with churn outcome
+
+4. churn_analysis_report.txt
+   - Comprehensive written report with detailed findings
+   - Statistical analysis and actionable recommendations
+
+================================================================================
+                          MAJOR DRIVERS IDENTIFIED
+================================================================================
+
+RANK 1: ENGAGEMENT METRICS (60% of predictive power)
+--------------------------------------------------------
+✓ Total Viewing Hours (23.8% importance)
+  → Churned: 66.6 hrs/month vs Retained: 83.2 hrs/month (-20%)
+  
+✓ Average Session Duration (21.5% importance)
+  → Churned: 49.4 min vs Retained: 57.8 min (-14%)
+  
+✓ Unique Titles Watched (15.7% importance)
+  → Churned: 19.5 titles vs Retained: 23.7 titles (-18%)
+  
+✓ Binge Sessions (11.0% importance)
+  → Churned: 6.2 sessions vs Retained: 7.7 sessions (-20%)
+
+KEY INSIGHT: Low engagement is the PRIMARY churn driver. All engagement 
+metrics show significantly lower values for churned customers.
+
+RANK 2: CUSTOMER SERVICE INTERACTIONS (9.7% importance)
+--------------------------------------------------------
+✓ Churned customers have 28% MORE service interactions
+  → Churned: 3.18 interactions/year vs Retained: 2.49/year
+  
+KEY INSIGHT: High service call volume indicates underlying problems driving
+both calls and eventual churn.
+
+RANK 3: CONTENT PREFERENCES (11.1% importance)
+-----------------------------------------------
+✓ Genre-based churn variation:
+  → Horror: 52.3% churn rate (highest)
+  → Thriller: 48.3% churn rate
+  → Documentary: 25.9% churn rate (lowest)
+  
+KEY INSIGHT: 2x churn rate difference between genres suggests content gaps
+or quality issues in Horror/Thriller categories.
+
+RANK 4: SUBSCRIPTION TIER (3.3% importance)
+--------------------------------------------
+✓ Tier-based churn rates:
+  → Basic ($7.99/mo): 43.5% churn rate (highest)
+  → Standard ($12.99/mo): 39.5% churn rate
+  → Premium ($17.99/mo): 24.1% churn rate (lowest)
+  
+KEY INSIGHT: Premium subscribers churn at HALF the rate of Basic subscribers,
+suggesting value proposition issues at lower tiers.
+
+RANK 5: MONTHLY COST (3.9% importance)
+---------------------------------------
+✓ Churned customers pay slightly less on average ($11.18 vs $12.11)
+  
+KEY INSIGHT: Not primarily a pricing issue - lower-paying customers churn
+more, likely because they're on Basic tier with fewer features.
+
+================================================================================
+                        ACTIONABLE RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE ACTIONS:
+------------------
+1. Implement engagement monitoring alerts (<70 hrs/mo, <50 min/session)
+2. Investigate customer service root causes and fix systemic issues
+3. Enhance Basic tier value proposition
+
+SHORT-TERM (1-3 months):
+------------------------
+4. Increase Horror/Thriller content investment
+5. Launch personalized re-engagement campaigns for low-usage customers
+6. Build predictive churn scoring system
+
+LONG-TERM (3-6 months):
+-----------------------
+7. Optimize pricing/tier structure and feature bundling
+8. Implement content strategy by genre preferences
+9. Create gamification and engagement programs
+
+================================================================================
+                            STATISTICAL VALIDATION
+================================================================================
+
+Model Performance:
+- Random Forest Classifier with 200 trees
+- Top 3 features alone account for 60% of predictive power
+- Engagement metrics show -14% to -20% difference (churned vs retained)
+- Customer service shows +28% correlation with churn
+
+Data Quality:
+- 500 customers analyzed
+- No missing values
+- 10 features including user behavior, preferences, and demographics
+
+================================================================================
+
+For detailed visualizations, see the PNG files.
+For full statistical analysis, see churn_analysis_report.txt.
+
+Analysis completed successfully.
+================================================================================

@@ -1,0 +1,193 @@
+
+================================================================================
+                    CHURN ANALYSIS - EXECUTIVE SUMMARY
+                          Streaming Service Dataset
+================================================================================
+
+DATASET OVERVIEW:
+-----------------
+• Total Customers Analyzed: 500
+• Churned Customers: 193 (38.6%)
+• Retained Customers: 307 (61.4%)
+
+================================================================================
+                         MAJOR DRIVERS OF CHURN
+================================================================================
+
+RANK 1: VIEWING ENGAGEMENT (Primary Driver - 60% of predictive power)
+----------------------------------------------------------------------
+The single most important cluster of factors driving churn relates to user 
+engagement with the platform:
+
+A. Total Viewing Hours (Importance: 23.8%)
+   • Churned customers: 66.6 hours/month
+   • Retained customers: 83.2 hours/month
+   • Impact: -20.0% lower engagement among churned users
+   • Interpretation: Low viewing hours is the strongest predictor of churn
+
+B. Average Session Duration (Importance: 21.5%)
+   • Churned customers: 49.4 minutes per session
+   • Retained customers: 57.8 minutes per session
+   • Impact: -14.4% shorter sessions among churned users
+   • Interpretation: Users who don't engage deeply in content are at risk
+
+C. Number of Unique Titles Watched (Importance: 15.7%)
+   • Churned customers: 19.5 titles/month
+   • Retained customers: 23.7 titles/month
+   • Impact: -18.1% less content variety among churned users
+   • Interpretation: Limited content exploration indicates lower satisfaction
+
+D. Binge Watching Sessions (Importance: 11.0%)
+   • Churned customers: 6.2 sessions/month
+   • Retained customers: 7.7 sessions/month
+   • Impact: -19.7% fewer binge sessions among churned users
+   • Interpretation: Binge-watching behavior indicates strong engagement
+
+KEY INSIGHT: All engagement metrics show churned customers are significantly
+less engaged. This suggests that monitoring engagement metrics can provide
+early warning signals for potential churn.
+
+================================================================================
+
+RANK 2: CUSTOMER SERVICE INTERACTIONS (Importance: 9.7%)
+---------------------------------------------------------
+• Churned customers: 3.18 interactions/year
+• Retained customers: 2.49 interactions/year
+• Impact: +27.7% more service interactions among churned users
+• Correlation with churn: +0.279 (strongest positive correlation)
+
+INTERPRETATION: High customer service interactions are a red flag. This 
+suggests that users who experience problems (technical issues, billing issues,
+content dissatisfaction) are more likely to churn. The service interactions
+may be symptoms of underlying problems rather than the cause itself.
+
+================================================================================
+
+RANK 3: CONTENT PREFERENCES (Importance: 11.1%)
+------------------------------------------------
+Churn rates vary significantly by content preference:
+
+HIGH CHURN GENRES:
+• Horror: 52.3% churn rate (23 of 44 customers)
+• Thriller: 48.3% churn rate (14 of 29 customers)
+• Action: 44.6% churn rate (33 of 74 customers)
+
+LOW CHURN GENRES:
+• Documentary: 25.9% churn rate (14 of 54 customers)
+• Comedy: 33.0% churn rate (33 of 100 customers)
+• Drama: 35.3% churn rate (36 of 102 customers)
+
+INTERPRETATION: Customers whose top genre is Horror or Thriller churn at 
+twice the rate of Documentary viewers. This may indicate:
+1. Insufficient content depth in these genres
+2. Different engagement patterns (e.g., seasonal viewing)
+3. These genres may attract more casual viewers
+
+================================================================================
+
+RANK 4: SUBSCRIPTION TIER (Importance: 3.3%)
+---------------------------------------------
+Churn rates by tier:
+• Basic Tier ($7.99/mo): 43.5% churn - HIGHEST RISK
+  - 207 customers, 90 churned
+• Standard Tier ($12.99/mo): 39.5% churn - MODERATE RISK
+  - 210 customers, 83 churned
+• Premium Tier ($17.99/mo): 24.1% churn - LOWEST RISK
+  - 83 customers, 20 churned
+
+INTERPRETATION: Premium subscribers churn at half the rate of Basic 
+subscribers. This could indicate:
+1. Users who value the service upgrade and stay
+2. Basic tier may lack perceived value
+3. Premium features drive stronger retention
+
+================================================================================
+
+RANK 5: MONTHLY COST (Importance: 3.9%)
+----------------------------------------
+• Churned customers: $11.18 average monthly cost
+• Retained customers: $12.11 average monthly cost
+• Impact: -7.7% lower cost among churned users
+
+INTERPRETATION: Paradoxically, churned customers pay slightly less on average.
+This aligns with the subscription tier finding - cheaper plans have higher 
+churn. This suggests it's not about price sensitivity, but rather about the
+value proposition and features offered at each tier.
+
+================================================================================
+                          ACTIONABLE RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE ACTIONS (High Impact, Quick Implementation):
+-------------------------------------------------------
+1. IMPLEMENT ENGAGEMENT MONITORING SYSTEM
+   • Set up alerts for customers below engagement thresholds:
+     - < 70 hours viewing/month
+     - < 50 minutes average session duration
+     - < 20 unique titles watched/month
+   • Trigger proactive retention campaigns for at-risk users
+
+2. INVESTIGATE CUSTOMER SERVICE ROOT CAUSES
+   • Analyze support tickets to identify common issues
+   • Address systemic problems causing repeated contacts
+   • Implement preventive measures to reduce need for support
+
+3. ENHANCE BASIC TIER VALUE PROPOSITION
+   • Review what drives users to Premium tier
+   • Consider adding select features to Basic tier
+   • Test messaging around value at the Basic tier price point
+
+SHORT-TERM INITIATIVES (1-3 months):
+------------------------------------
+4. CONTENT INVESTMENT BY GENRE
+   • Increase Horror and Thriller content library depth
+   • Monitor genre-specific engagement metrics
+   • Consider genre-specific recommendation improvements
+
+5. PERSONALIZED RE-ENGAGEMENT CAMPAIGNS
+   • Target low-engagement users with personalized recommendations
+   • Send curated content suggestions based on viewing history
+   • Implement "new content in your favorite genre" notifications
+
+6. EARLY WARNING SYSTEM
+   • Build predictive model using identified drivers
+   • Score all active customers on churn risk
+   • Create tiered intervention strategies by risk level
+
+LONG-TERM STRATEGIC INITIATIVES (3-6 months):
+----------------------------------------------
+7. PRICING AND TIER OPTIMIZATION
+   • Test different tier configurations
+   • Consider feature bundling to drive upgrades
+   • Evaluate graduated pricing based on usage
+
+8. CONTENT STRATEGY REFINEMENT
+   • Deep dive into genre-specific viewing patterns
+   • Invest strategically in content for high-churn genres
+   • Consider genre-specific subscription options
+
+9. PROACTIVE ENGAGEMENT PROGRAMS
+   • Gamification to encourage content exploration
+   • Social features to increase stickiness
+   • Viewing challenges/rewards programs
+
+================================================================================
+                              STATISTICAL SUMMARY
+================================================================================
+
+FEATURE IMPORTANCE RANKING:
+--------------------------------------------------------------------------------
+Rank   Feature                                       Importance     
+--------------------------------------------------------------------------------
+1      TotalViewingHoursLastMonth                    0.2385 (23.85%)
+2      AverageSessionDurationMinutes                 0.2149 (21.49%)
+3      NumberOfUniqueTitlesWatchedLastMonth          0.1567 (15.67%)
+4      TopGenre                                      0.1109 (11.09%)
+5      BingeWatchingSessionsLastMonth                0.1104 (11.04%)
+6      CustomerServiceInteractionsLastYear           0.0967 (9.67%)
+7      MonthlyCost                                   0.0390 (3.90%)
+8      SubscriptionTier                              0.0330 (3.30%)
+
+================================================================================
+                            END OF REPORT
+================================================================================
